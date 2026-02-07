@@ -215,8 +215,8 @@ namespace SpaceShooter
         {
             base.OnRenderFrame(args);
 
-            RenderPlayerView(_player1, 1);
             RenderPlayerView(_player2, 2);
+            RenderPlayerView(_player1, 1);
 
             SwapBuffers();
         }
